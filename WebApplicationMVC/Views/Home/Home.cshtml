@@ -1,0 +1,54 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="~/css/style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        Bem-Vindos
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="/Home/About">DESAFIO</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Gabriel</h2>
+        <span class="home-position">Programador FullStack</span>
+        <span class="home-resume">
+          Graduado em Sistemas de Informação, 
+          tenho experiência em desenvolvimento Web
+          (ASP.NET Core (MVC); SQL; JavaScript; Typescript; Angular e Outros). 
+          Gosto de estar com minha família, praticar esportes,assistir séries e ver filmes
+        </span>
+
+        <button>
+          <a href="/Home/About">Desafio</a>
+        </button>
+        @*@Html.ActionLink("About", "About")*@
+      </div>
+      <div class="home-img">
+        <img src="/img/gabriel.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html
